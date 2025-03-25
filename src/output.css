@@ -553,3 +553,24 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg-\[\#7711DD\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(119 17 221 / var(--tw-bg-opacity, 1));
+}
+
+.pl-\[120px\] {
+  padding-left: 120px;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
