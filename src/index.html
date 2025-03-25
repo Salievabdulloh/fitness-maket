@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+-->
 
 <head>
     <meta charset="UTF-8">
@@ -9,12 +12,12 @@
 </head>
 
 <body>
-    <header class="bg-[#7711DD] text-white pl-[120px] pt-5">
-        <div class="flex justify-between pr-[120px]">
+    <header class="bg-[#7711DD] text-white tab:pb-0 pb-[80px] px-[50px] tab:pl-[120px] pt-5">
+        <div class="flex justify-between tab:pr-[120px]">
             <p class="bg-[#1BDBC4] text-[20px] rounded-[6px] text-white py-3 px-[6px]">Easy</p>
 
             <div class="flex items-center gap-[50px]">
-                <div class="flex items-center gap-[22px] ">
+                <div class="tab:flex items-center hidden gap-[22px] ">
                     <img src="img/Facebook.png">
                     <img src="img/Linkedin.png">
                     <img src="img/Google.png">
@@ -24,7 +27,7 @@
         </div>
         <div class="flex items-center">
             <div class="">
-                <p class="text-[70px]">The best
+                <p class="text-[35px] tab:text-[70px]">The best
                     fitness tracker!</p>
                 <p class="pt-[30px] pb-[50px]">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut et esse
                     cupidatat consequat ea exercitation.</p>
@@ -37,11 +40,58 @@
                             src="img/Play market icon.png">Download</button>
                 </div>
             </div>
-            <img src="img/phone.png" alt="">
+            <img src="img/phone.png" class="hidden tab:block">
         </div>
     </header>
 
-    <main></main>
+    <main>
+        <div class="py-[40px] px-[40px] tab:py-[80px] flex flex-col items-center">
+            <p class="text-center text-[24px] tab:text-[45px]">About text</p>
+            <p class="text-[#474A57] text-center tab:w-[501px] tab:text-[18px] tab:pt-[30px] tab:pb-[60px]">Nisi
+                ullamco tempor
+                tempor
+                nulla labore
+                ad labore
+                sit eu
+                duis. Ut et esse
+                cupidatat consequat.
+            </p>
+            <div class="flex tab:mt-0 mt-[30px] justify-center gap-[30px]">
+                <div class="pt-[25px] rounded-[10px] bg-[#FA6648] text-white pb-[30px] pr-[23px] pl-[20px]">
+                    <div class="flex gap-[22px]">
+                        <img src="img/mount.png">
+                        <p class="text-[20px] w-[173px]">Nisi ullamco tempor tempor nulla.</p>
+                    </div>
+                    <p class="">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </p>
+                </div>
+                <div
+                    class="pt-[25px] hidden tab:block rounded-[10px] bg-[#FFB0BC] text-white pb-[30px] pr-[23px] pl-[20px]">
+                    <div class="flex gap-[22px]">
+                        <img src="img/mount.png">
+                        <p class="text-[20px] w-[173px]">Nisi ullamco tempor tempor nulla.</p>
+                    </div>
+                    <p class="">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </p>
+                </div>
+                <div
+                    class="pt-[25px] hidden tab:block rounded-[10px] bg-[#FFBD12] text-white pb-[30px] pr-[23px] pl-[20px]">
+                    <div class="flex gap-[22px]">
+                        <img src="img/mount.png">
+                        <p class="text-[20px] w-[173px]">Nisi ullamco tempor tempor nulla.</p>
+                    </div>
+                    <p class="">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </p>
+                </div>
+                <div
+                    class="pt-[25px] hidden tab:block rounded-[10px] bg-[#FA6648] text-white pb-[30px] pr-[23px] pl-[20px]">
+                    <div class="flex gap-[22px]">
+                        <img src="img/mount.png">
+                        <p class="text-[20px] w-[173px]">Nisi ullamco tempor tempor nulla.</p>
+                    </div>
+                    <p class="">Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. </p>
+                </div>
+            </div>
+            <img src="img/dots.png" class="mt-[50px] hidden tab:block">
+        </div>
+    </main>
 
     <footer></footer>
 </body>
