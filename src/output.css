@@ -558,13 +558,137 @@ video {
   display: flex;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[22px\] {
+  gap: 22px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[9p\] {
+  gap: 9p;
+}
+
+.gap-\[9px\] {
+  gap: 9px;
+}
+
+.gap-\[15px\] {
+  gap: 15px;
+}
+
+.text-wrap {
+  text-wrap: wrap;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.rounded-none {
+  border-radius: 0px;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[6px\] {
+  border-radius: 6px;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-s-md {
+  border-start-start-radius: 0.375rem;
+  border-end-start-radius: 0.375rem;
 }
 
 .bg-\[\#7711DD\] {
   --tw-bg-opacity: 1;
   background-color: rgb(119 17 221 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#1BDBC4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 219 196 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-\[6px\] {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.px-\[120px\] {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.py-\[11px\] {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.px-\[31px\] {
+  padding-left: 31px;
+  padding-right: 31px;
 }
 
 .pl-\[120px\] {
@@ -573,4 +697,46 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pr-\[120px\] {
+  padding-right: 120px;
+}
+
+.pb-\[50px\] {
+  padding-bottom: 50px;
+}
+
+.pt-\[30px\] {
+  padding-top: 30px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[70px\] {
+  font-size: 70px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
